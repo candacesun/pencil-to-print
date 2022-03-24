@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<style>
+button {
+  position:relative;
+  top:22vh;
+}
+.wrapper {
+  text-align:center;
+}
+h1 {
+
+}
+p {
+  position:relative;
+  color:blue;
+  text-align:center;
+  top:22vh;
+}
+.header {
+  background-color: blue;
+  color: white;
+  width:100vw;
+  height:20vh;
+  position:absolute;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+  flex-direction: column;
+  left:0px;
+  top:0px;
+  z-index:-1;
+  text-align:center;
+}
+</style>
+<title>Pencil to Print</title>
+</head>
+<body>
+<div class="header"><h1>Pencil to Print</h1></div>
+<p><i>Have notes? Turn them into text!</i></p>
+<div class="wrapper"><button onclick="myfunct()">Upload Image</button></div>
+<p>For best results, the image should:<br><br>
+- contain the entire page<br>
+- be as high quality as possible (no blurriness)</p>
+
+<!-- add button that somehow runs ssh_script.py on an uploaded img -->
+<script>
+function myfunct() {
+  alert("hi")
+}  
+</script>
+</body>
+</html>
